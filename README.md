@@ -26,10 +26,12 @@ newcool-docs/
 │   └── PLAN_DE_ACCION.md       # 6 fases, 84 tareas
 ├── prompts/                     # Prompts del ecosistema
 │   └── ECOSYSTEM.md            # Documentación del ecosistema
-└── rules/                       # Reglas globales Claude Code
-    ├── monetizacion.md         # Modelo de ingresos
-    ├── codigo.md               # Estándares de código
-    └── letras.md               # Guías de contenido
+├── rules/                       # Reglas globales Claude Code
+│   ├── monetizacion.md         # Modelo de ingresos
+│   ├── codigo.md               # Estándares de código
+│   └── letras.md               # Guías de contenido
+└── auth/                        # NewCool ID
+    └── NEWCOOL_ID_ARCHITECTURE.md  # Auth system design
 ```
 
 ## NEWCOOL_MASTER_PROMPT.md
