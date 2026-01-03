@@ -24,8 +24,12 @@ newcool-docs/
 │   └── PROMPT_MAESTRO_BR.md    # Brasil
 ├── plan/                        # Plan de acción
 │   └── PLAN_DE_ACCION.md       # 6 fases, 84 tareas
-└── prompts/                     # Prompts del ecosistema
-    └── ECOSYSTEM.md            # Documentación del ecosistema
+├── prompts/                     # Prompts del ecosistema
+│   └── ECOSYSTEM.md            # Documentación del ecosistema
+└── rules/                       # Reglas globales Claude Code
+    ├── monetizacion.md         # Modelo de ingresos
+    ├── codigo.md               # Estándares de código
+    └── letras.md               # Guías de contenido
 ```
 
 ## NEWCOOL_MASTER_PROMPT.md
