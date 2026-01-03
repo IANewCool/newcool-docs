@@ -1,0 +1,312 @@
+{
+  "metadata": {
+    "generated": "2026-01-03",
+    "business_model_version": "2.0",
+    "total_modules_classified": 141
+  },
+  "categories": {
+    "servicio_publico": {
+      "badge": "🏛️",
+      "model": "100% Gratis",
+      "price": "$0",
+      "justification": "Información de entidades gubernamentales. El Estado debería proveer esta información de forma clara.",
+      "modules": [
+        {"name": "newcool-aduanas", "description": "Portal Aduanas - importaciones/exportaciones"},
+        {"name": "newcool-afp", "description": "Información AFP y pensiones"},
+        {"name": "newcool-agricultura", "description": "Ministerio de Agricultura - SAG"},
+        {"name": "newcool-agua", "description": "Servicios de agua y saneamiento"},
+        {"name": "newcool-beneficios", "description": "Subsidios y bonos sociales del Estado"},
+        {"name": "newcool-caj", "description": "Corporación de Asistencia Judicial"},
+        {"name": "newcool-ciudadania", "description": "Trámites de ciudadanía"},
+        {"name": "newcool-civics", "description": "Educación cívica y derechos ciudadanos"},
+        {"name": "newcool-civil", "description": "Derecho civil y procedimientos"},
+        {"name": "newcool-comisaria-virtual", "description": "Carabineros - permisos y denuncias"},
+        {"name": "newcool-conservador", "description": "Conservador de Bienes Raíces"},
+        {"name": "newcool-consumidor", "description": "Derechos del consumidor"},
+        {"name": "newcool-contraloria", "description": "Contraloría General de la República"},
+        {"name": "newcool-defensoria", "description": "Defensoría Penal Pública"},
+        {"name": "newcool-derechos", "description": "Derechos ciudadanos fundamentales"},
+        {"name": "newcool-direccion-trabajo", "description": "Dirección del Trabajo - fiscalización"},
+        {"name": "newcool-emergencias", "description": "Servicios de emergencia 131/132/133"},
+        {"name": "newcool-fonasa", "description": "FONASA - tramos, copagos, bonos"},
+        {"name": "newcool-impuestos", "description": "Calculadoras tributarias SII"},
+        {"name": "newcool-migracion", "description": "Extranjería y migración"},
+        {"name": "newcool-ministerio-publico", "description": "Ministerio Público - fiscalías"},
+        {"name": "newcool-municipalidades", "description": "Servicios municipales"},
+        {"name": "newcool-normas", "description": "Normativa y legislación vigente"},
+        {"name": "newcool-notarias", "description": "Directorio y trámites notariales"},
+        {"name": "newcool-penal", "description": "Derecho penal y procedimientos"},
+        {"name": "newcool-poder-judicial", "description": "Poder Judicial - consultas"},
+        {"name": "newcool-previred", "description": "Cotizaciones previsionales"},
+        {"name": "newcool-registro-civil", "description": "Registro Civil - certificados"},
+        {"name": "newcool-salud", "description": "Sistema de salud público"},
+        {"name": "newcool-seguridad", "description": "Seguridad ciudadana"},
+        {"name": "newcool-sernac", "description": "SERNAC - reclamos consumidor"},
+        {"name": "newcool-sii-data", "description": "Servicio de Impuestos Internos"},
+        {"name": "newcool-telecomunicaciones", "description": "SUBTEL - regulaciones telecom"},
+        {"name": "newcool-tgr", "description": "Tesorería General de la República"},
+        {"name": "newcool-trabajo", "description": "Derechos laborales y Código del Trabajo"},
+        {"name": "newcool-transporte", "description": "Ministerio de Transportes"},
+        {"name": "newcool-vivienda", "description": "MINVU - subsidios habitacionales"}
+      ]
+    },
+    "educacion": {
+      "badge": "🎓",
+      "model": "Gratis + Donación",
+      "price": "$0 (sugerido $1-5 USD/mes)",
+      "justification": "La educación transforma vidas. Debe ser accesible. Quien recibe valor y puede, que apoye voluntariamente.",
+      "modules": [
+        {"name": "newcool-ai", "description": "Introducción a Inteligencia Artificial"},
+        {"name": "newcool-ciencia", "description": "Ciencias naturales y experimentales"},
+        {"name": "newcool-code", "description": "Programación desde cero"},
+        {"name": "newcool-cultura", "description": "Cultura general y arte"},
+        {"name": "newcool-datascience", "description": "Ciencia de datos aplicada"},
+        {"name": "newcool-desaprender", "description": "Desaprender para reaprender"},
+        {"name": "newcool-educacion", "description": "Portal educativo general"},
+        {"name": "newcool-english", "description": "Inglés inmersivo"},
+        {"name": "newcool-geography", "description": "Geografía exploratoria"},
+        {"name": "newcool-history", "description": "Historia interactiva"},
+        {"name": "newcool-informada", "description": "NewCooltura Informada - portal educativo"},
+        {"name": "newcool-leadership", "description": "Liderazgo y soft skills"},
+        {"name": "newcool-learn", "description": "Portal Learn Hub"},
+        {"name": "newcool-math", "description": "Matemáticas adaptativas"},
+        {"name": "newcool-music-edu", "description": "Educación musical"},
+        {"name": "newcool-quiz", "description": "Sistema de evaluaciones"},
+        {"name": "newcool-reading", "description": "Lectura comprensiva"},
+        {"name": "newcool-science", "description": "Ciencias (física, química, biología)"},
+        {"name": "newcool-teacher", "description": "Herramientas para docentes"},
+        {"name": "newcool-writing", "description": "Escritura creativa y técnica"},
+        {"name": "newcool-ethical-framework", "description": "Framework ético y valores"}
+      ]
+    },
+    "herramienta_personal": {
+      "badge": "🔧",
+      "model": "Gratis + Donación",
+      "price": "$0 (sugerido $1-5 USD/mes)",
+      "justification": "Herramientas de uso cotidiano que no generan ingresos directos al usuario.",
+      "modules": [
+        {"name": "newcool-cocina", "description": "Recetas virales educativas (436+ recetas)"},
+        {"name": "newcool-deporte", "description": "Deportes y actividad física"},
+        {"name": "newcool-familia", "description": "Recursos para la familia"},
+        {"name": "newcool-finance", "description": "Finanzas personales básicas"},
+        {"name": "newcool-fortuna", "description": "Simulador juegos azar (educativo)"},
+        {"name": "newcool-hogar", "description": "Guías DIY reparaciones (677+ guías)"},
+        {"name": "newcool-horoscopo", "description": "Horóscopo con píldoras educativas"},
+        {"name": "newcool-mascota", "description": "Juego virtual mascotas (lecciones financieras)"},
+        {"name": "newcool-mascotas", "description": "Cuidado de mascotas reales"},
+        {"name": "newcool-memes", "description": "Generador de memes educativos"},
+        {"name": "newcool-personalidad", "description": "Tests de personalidad"},
+        {"name": "newcool-translate", "description": "Traductor multilingüe"},
+        {"name": "newcool-turismo", "description": "Guía turística Chile"}
+      ]
+    },
+    "herramienta_profesional": {
+      "badge": "💼",
+      "model": "Freemium",
+      "price": "$0 básico / $9-199 USD/mes Pro",
+      "justification": "Si la herramienta te ayuda a ganar dinero, es justo que parte del valor vuelva.",
+      "modules": [
+        {"name": "newcool-contabilidad", "description": "Contabilidad PCGA Chile", "price_pro": "$99-199/mes"},
+        {"name": "newcool-ecommerce", "description": "Herramientas e-commerce", "price_pro": "$29-59/mes"},
+        {"name": "newcool-emprendimiento", "description": "Portal SERCOTEC y fondos", "price_pro": "$29-59/mes"},
+        {"name": "newcool-finiquito", "description": "Calculadora finiquito + TGR", "price_pro": "$19-39"},
+        {"name": "newcool-fintech", "description": "Herramientas fintech", "price_pro": "$49-99/mes"},
+        {"name": "newcool-mantencion", "description": "Gestión mantenimiento industrial", "price_pro": "Custom"},
+        {"name": "newcool-marketing", "description": "Cursos marketing digital (18 lecciones)", "price_pro": "$29-49/mes"},
+        {"name": "newcool-nocode", "description": "Desarrollo sin código", "price_pro": "$19-39/mes"},
+        {"name": "newcool-product", "description": "Product management tools", "price_pro": "$29-59/mes"},
+        {"name": "newcool-rrhh", "description": "Gestión RRHH completa", "price_pro": "$149-299/mes"},
+        {"name": "newcool-startup", "description": "Toolkit para startups", "price_pro": "$49-99/mes"}
+      ]
+    },
+    "premium": {
+      "badge": "🧠",
+      "model": "Pago (Suscripción)",
+      "price": "$9.99 USD/mes o $79 USD/año",
+      "justification": "Productos con alto valor transformacional. El precio refleja el valor entregado.",
+      "modules": [
+        {"name": "newcool-mind-os", "description": "Sistema Operativo Mental - 10 modos cognitivos (Flutter)", "platforms": ["iOS", "Android", "macOS", "Web", "Windows", "Linux"]}
+      ]
+    },
+    "industrial": {
+      "badge": "⚡",
+      "model": "Pago (Licencia Custom)",
+      "price": "Enterprise - Cotización personalizada",
+      "justification": "Empresas industriales tienen presupuesto. El valor generado justifica el costo.",
+      "modules": [
+        {"name": "newcool-energia", "description": "Gestión energética industrial"},
+        {"name": "newcool-energy", "description": "Monitoreo consumo energético"},
+        {"name": "newcool-forestal", "description": "Gestión forestal y CONAF"},
+        {"name": "newcool-greentech", "description": "Tecnología verde y sostenible"},
+        {"name": "newcool-mineria", "description": "Herramientas minería"},
+        {"name": "newcool-pesca", "description": "Sector pesquero y acuícola"},
+        {"name": "newcool-robotics", "description": "Robótica industrial"},
+        {"name": "newcool-robots", "description": "Automatización y robots"},
+        {"name": "newcool-scada", "description": "Simuladores SCADA (Tank, Conveyor, Traffic)"}
+      ]
+    },
+    "marketplace": {
+      "badge": "🛒",
+      "model": "Comisión por Transacción",
+      "price": "20% por servicio completado",
+      "justification": "El valor se crea cuando ocurre la transacción. La comisión facilita el encuentro.",
+      "modules": [
+        {"name": "fixmatch", "description": "Marketplace técnicos verificados (14 categorías)"},
+        {"name": "fixmatch-launch", "description": "Landing page FixMatch"}
+      ]
+    },
+    "api_infrastructure": {
+      "badge": "🔌",
+      "model": "Pago por Uso / Suscripción",
+      "price": "Desde $29 USD/mes",
+      "justification": "Uso comercial de infraestructura = pago.",
+      "modules": [
+        {"name": "newcool-analytics", "description": "Dashboard analytics con Recharts"},
+        {"name": "newcool-assets-pipeline", "description": "Pipeline procesamiento assets"},
+        {"name": "newcool-atlas-patches", "description": "Patches Chromium (3 parches, 31MB)"},
+        {"name": "newcool-atlas-v3-pro", "description": "Atlas V3 Pro - versión anterior"},
+        {"name": "newcool-atlas-v4", "description": "Motor cognitivo adaptativo (21 módulos, 182 tests)"},
+        {"name": "newcool-auth", "description": "Autenticación centralizada Supabase"},
+        {"name": "newcool-blockchain", "description": "Infraestructura blockchain"},
+        {"name": "newcool-certs", "description": "Gestión certificados SSL/TLS"},
+        {"name": "newcool-cloud", "description": "Dashboard infraestructura cloud"},
+        {"name": "newcool-content-uploader", "description": "Sistema upload contenido S3"},
+        {"name": "newcool-cybersecurity", "description": "Herramientas ciberseguridad"},
+        {"name": "newcool-devops", "description": "Herramientas DevOps/CI-CD"},
+        {"name": "newcool-hub", "description": "Centro localización global (Rust search)"},
+        {"name": "newcool-indexing", "description": "Sistema indexación contenido"},
+        {"name": "newcool-neo", "description": "Monitor build inteligente (Python)"},
+        {"name": "newcool-offline", "description": "Sincronización offline-first"},
+        {"name": "newcool-search-v3", "description": "Motor búsqueda híbrido Rust (BM25 + semántico)"},
+        {"name": "newcool-sso", "description": "Seguridad y Salud Ocupacional (no Single Sign-On)"}
+      ]
+    },
+    "creatividad": {
+      "badge": "🎨",
+      "model": "Gratis + Donación / Freemium",
+      "price": "$0 básico / $19-49 USD/mes Pro",
+      "justification": "Herramientas creativas con tier gratuito para exploración.",
+      "modules": [
+        {"name": "newcool-3dvr", "description": "Contenido 3D y realidad virtual"},
+        {"name": "newcool-anime-factory", "description": "Generación anime automatizada"},
+        {"name": "newcool-art", "description": "Herramientas artísticas"},
+        {"name": "newcool-drama", "description": "Contenido dramático/series"},
+        {"name": "newcool-farandula", "description": "Entretenimiento y farándula"},
+        {"name": "newcool-gamedev", "description": "Desarrollo de videojuegos"},
+        {"name": "newcool-motion", "description": "Motion graphics"},
+        {"name": "newcool-photography", "description": "Fotografía y edición"},
+        {"name": "newcool-podcast", "description": "Creación y distribución podcasts"},
+        {"name": "newcool-streaming", "description": "Herramientas streaming"},
+        {"name": "newcool-streaming-platform", "description": "Plataforma streaming (4,734 canciones Suno)"},
+        {"name": "newcool-terror", "description": "Contenido terror/horror"},
+        {"name": "newcool-uxui", "description": "Diseño UX/UI"},
+        {"name": "newcool-video", "description": "Edición y producción video"}
+      ]
+    },
+    "ai_generation": {
+      "badge": "🤖",
+      "model": "Pago por Uso",
+      "price": "Por generación o suscripción",
+      "justification": "Generación AI tiene costos de API. Se cobra por uso.",
+      "modules": [
+        {"name": "newcool-ai-factory-os", "description": "Plataforma generación AI distribuida (Runway, Replicate, FAL.ai)"},
+        {"name": "newcool-astral", "description": "Proyecto AI experimental"},
+        {"name": "newcool-biotech", "description": "Biotecnología y AI"},
+        {"name": "newcool-music-engine-clean", "description": "Motor música limpio"},
+        {"name": "newcool-music-pipeline", "description": "Pipeline generación música Suno AI"}
+      ]
+    },
+    "community": {
+      "badge": "👥",
+      "model": "Gratis (parte del ecosistema)",
+      "price": "$0",
+      "justification": "Infraestructura comunitaria que habilita el ecosistema.",
+      "modules": [
+        {"name": "newcool-cerebro", "description": "Analytics evolutivo (puerto 3012)"},
+        {"name": "newcool-community", "description": "Hub comunitario principal"},
+        {"name": "newcool-events", "description": "Gestión eventos (puerto 3017)"},
+        {"name": "newcool-feedback", "description": "Sistema feedback NPS (puerto 3013)"},
+        {"name": "newcool-gamification", "description": "Gamificación (puerto 3015)"},
+        {"name": "newcool-impact", "description": "Métricas de impacto social"},
+        {"name": "newcool-moderation", "description": "Moderación contenido (puerto 3016)"},
+        {"name": "newcool-notifications", "description": "Notificaciones multicanal (puerto 3014)"},
+        {"name": "newcool-t12-shared", "description": "Librería compartida EventBus T12"}
+      ]
+    },
+    "sostenibilidad": {
+      "badge": "🌍",
+      "model": "Gratis + Donación",
+      "price": "$0",
+      "justification": "Contenido de impacto social y ambiental.",
+      "modules": [
+        {"name": "newcool-circular", "description": "Economía circular"},
+        {"name": "newcool-medioambiente", "description": "Medio ambiente y ecología"}
+      ]
+    },
+    "otros": {
+      "badge": "📦",
+      "model": "Por definir",
+      "price": "Variable",
+      "justification": "Módulos auxiliares o en desarrollo.",
+      "modules": [
+        {"name": "newcool-planet", "description": "Homepage planet.newcool.io"}
+      ]
+    }
+  },
+  "summary": {
+    "servicio_publico": 37,
+    "educacion": 21,
+    "herramienta_personal": 13,
+    "herramienta_profesional": 11,
+    "premium": 1,
+    "industrial": 9,
+    "marketplace": 2,
+    "api_infrastructure": 18,
+    "creatividad": 14,
+    "ai_generation": 5,
+    "community": 9,
+    "sostenibilidad": 2,
+    "otros": 1,
+    "total": 143
+  },
+  "revenue_potential": {
+    "free_modules": {
+      "count": 82,
+      "categories": ["servicio_publico", "educacion", "herramienta_personal", "community", "sostenibilidad"],
+      "monetization": "Donaciones voluntarias"
+    },
+    "freemium_modules": {
+      "count": 25,
+      "categories": ["herramienta_profesional", "creatividad"],
+      "estimated_arpu": "$15-50 USD/mes"
+    },
+    "paid_modules": {
+      "count": 34,
+      "categories": ["premium", "industrial", "api_infrastructure", "ai_generation", "marketplace"],
+      "estimated_revenue": "$29-299+ USD/mes por usuario"
+    }
+  },
+  "geographic_expansion": {
+    "chile": {
+      "status": "Base",
+      "modules_localized": 143,
+      "government_integrations": 37
+    },
+    "spain": {
+      "status": "Planned",
+      "adaptations_needed": ["RGPD", "Instituciones EU", "EUR pricing"]
+    },
+    "mexico": {
+      "status": "Planned",
+      "adaptations_needed": ["SAT", "IMSS", "MXN pricing"]
+    },
+    "usa": {
+      "status": "Planned",
+      "adaptations_needed": ["IRS", "CCPA", "USD pricing", "English"]
+    },
+    "brazil": {
+      "status": "Planned",
+      "adaptations_needed": ["LGPD", "Receita Federal", "BRL pricing", "Portuguese"]
+    }
+  }
+}

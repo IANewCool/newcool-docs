@@ -1,0 +1,122 @@
+{
+  "metadata": {
+    "generated": "2026-01-03",
+    "version": "2.0"
+  },
+  "frontend": {
+    "primary_framework": "Next.js 16",
+    "ui_library": "React 19",
+    "language": "TypeScript 5.7+",
+    "styling": {
+      "framework": "Tailwind CSS 4.0",
+      "preprocessor": "PostCSS",
+      "utilities": ["clsx", "tailwind-merge", "class-variance-authority"]
+    },
+    "state_management": "Zustand 5.x",
+    "animation": "Framer Motion 11-12",
+    "ui_components": ["Radix UI", "Lucide React"],
+    "charting": "Recharts 2.x",
+    "forms": "React Hook Form + Zod"
+  },
+  "backend": {
+    "runtime": "Node.js 20+",
+    "web_framework": "Express.js / Next.js API Routes",
+    "authentication": "Supabase Auth + JWT",
+    "validation": "Zod",
+    "security": ["Helmet", "CORS"]
+  },
+  "rust_services": {
+    "search_engine": {
+      "project": "newcool-search-v3",
+      "search_library": "Tantivy",
+      "web_framework": "Axum",
+      "async_runtime": "Tokio",
+      "vector_db": "Qdrant",
+      "caching": "Redis"
+    },
+    "apex_learning": {
+      "project": "newcool-apex-learning",
+      "paradigm": "DDD (Domain-Driven Design)",
+      "serialization": "serde/serde_json",
+      "error_handling": "thiserror",
+      "testing": "52 tests"
+    },
+    "hub_search": {
+      "project": "newcool-hub",
+      "binding": "NAPI-RS",
+      "algorithm": "Tantivy BM25"
+    }
+  },
+  "python_services": {
+    "neo_monitor": {
+      "project": "newcool-neo",
+      "version": "Python 3.11+",
+      "async": "asyncio",
+      "database": "aiosqlite",
+      "cli": "Click",
+      "logging": "Rich"
+    },
+    "asset_generator": {
+      "project": "chromium-asset-generator",
+      "imaging": "Pillow",
+      "svg": "rsvg-convert"
+    }
+  },
+  "mobile": {
+    "framework": "Flutter 3.x",
+    "language": "Dart",
+    "state_management": "Provider 6.x",
+    "database": "sqflite (SQLite)",
+    "audio": "audioplayers 5.x",
+    "platforms": ["iOS", "Android", "macOS", "Web", "Windows", "Linux"]
+  },
+  "ai_providers": {
+    "image": {
+      "primary": "Replicate (Flux/SDXL)",
+      "fallback_1": "FAL.ai (Fast Flux)",
+      "fallback_2": "OpenAI DALL-E 3"
+    },
+    "video": {
+      "primary": "Runway Gen-3 Alpha",
+      "fallback_1": "Hailuo MiniMax",
+      "fallback_2": "Veo 3 (Google)"
+    },
+    "audio": {
+      "music": "Suno AI"
+    },
+    "llm": {
+      "primary": "Anthropic Claude",
+      "fallback": "OpenAI GPT-4"
+    }
+  },
+  "databases": {
+    "primary": "PostgreSQL (via Supabase)",
+    "cache": "Redis",
+    "local": "SQLite",
+    "vector": "Qdrant",
+    "file_storage": "JSON (local), FileStore"
+  },
+  "infrastructure": {
+    "hosting": "Vercel",
+    "cdn": "AWS S3 (us-east-2)",
+    "auth": "Supabase",
+    "queue": "BullMQ + Redis",
+    "container": "Docker + Docker Compose"
+  },
+  "browser": {
+    "base": "Chromium 145.0.7560",
+    "build_system": "GN + Ninja",
+    "languages_supported": 81,
+    "platforms": ["macOS", "Windows", "Linux", "Android"]
+  },
+  "testing": {
+    "node": "node:test (native)",
+    "rust": "cargo test",
+    "python": "pytest + pytest-asyncio",
+    "coverage_targets": {
+      "atlas_v4": "182 tests",
+      "apex_learning": "52 tests",
+      "neo": "126 tests (96 unit + 30 integration)"
+    }
+  }
+}
